@@ -35,6 +35,7 @@ def course_name():
             break
         elif course == "Q" and count1 >= 3:
             print("Your course info has been saved")
+            list_of_course.pop()
             print("Your courses: ", list_of_course)
             grades()
             break
